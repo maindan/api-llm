@@ -42,7 +42,9 @@ O Webhook é o "telefone" que o WAHA usa para avisar o seu FastAPI que chegou um
      *(Nota: Usamos `api-llm` porque dentro da rede Docker os containers se comunicam pelo nome do serviço).*
    - **Events:** Selecione `message` e `message.any`.
    - **Enabled:** Marque como `True`.
-4. Clique em **Save**.## Tecnologias
+4. Clique em **Save**.
+  
+## 4. Tecnologias
 
 - Python 3.11+
 - FastAPI
@@ -111,6 +113,8 @@ DATABASE_URL=postgresql://postgres:postgres@db:5432/llm_db
 GROQ_API_KEY=sua_chave
 # Seu número de WhatsApp no formato internacional (ex: 5592999999991@c.us)
 SELF_NUMBER=5592999999991@c.us
+```
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
